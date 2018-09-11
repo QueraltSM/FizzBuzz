@@ -33,13 +33,11 @@ public class FizzBuzz_ {
         }
 
         private static String fizz(int number) {
-            if (number % 3 == 0) return "Fizz";
-            return "";
+            return number % 3 == 0 ? "Fizz" : "";
         }
 
         private static String buzz(int number) {
-            if (number % 5 == 0) return "Buzz";
-            return "";
+            return number % 5 == 0 ? "Buzz" : "";
         }
     }
 }
